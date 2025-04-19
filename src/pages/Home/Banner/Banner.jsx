@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div>
+        <div className='mb-12'>
             <div
                 className="hero min-h-screen"
                 style={{

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co.com/V0VNbstt/Chair-1-1.png",
+        "title": "Armless Solid Dining Chair",
+        "price": 1250.00
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co.com/kgm4xHGx/Chair-2-1.png",
+        "title": "Elle Decor Roux Arm Chair",
+        "price": 1250.00
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co.com/0j8xCbBs/3.png",
+        "title": "Luxury Recliner Lounge Chair",
+        "price": 1250.00
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co.com/tMpFzvkh/4.png",
+        "title": "Modern Chair Set",
+        "price": 1250.00
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co.com/v483wjPT/1.png",
+        "title": "Velvet Midnight Natural Sofa",
+        "price": 1250.00
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co.com/R4V386Ws/2.png",
+        "title": "Modern Furniture",
+        "price": 1250.00
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co.com/Z1bFdDjM/3-1.png",
+        "title": "Modern Furniture Set",
+        "price": 1250.00
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co.com/DJ2bL5t/4-1.png",
+        "title": "Furniture Sofa  Set",
+        "price": 1250.00
+    }
+]

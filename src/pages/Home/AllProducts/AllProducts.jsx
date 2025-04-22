@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import AllProduct from "./AllProduct";
+import { Link } from "react-router-dom";
 
 
 const AllProducts = () => {
     const [allProducts, setAllProducts] = useState([]);
+
+    const [dataLength, setDataLength] = useState([12])
 
     useEffect(() => {
         fetch('products.json')
@@ -14,12 +17,15 @@ const AllProducts = () => {
         <div className="container mx-auto mb-12">
             <div className='flex items-center justify-between mb-6'>
                 <h1 className='text-2xl font-medium'>All Products</h1>
-                <p>See all</p>
+                <Link to='/products'><p>See all</p></Link>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {
-                    allProducts.map(allProduct =><AllProduct allProduct={allProduct}></AllProduct>)
+                    allProducts.slice(0, dataLength).map(allProduct =><AllProduct allProduct={allProduct}></AllProduct>)
                 }
+            </div>
+            <div className="mt-12 text-center">
+                <button onClick={() => setDataLength(allProducts.length)} className="btn text-[#092B42] border border-[#092B42]">Load More</button>
             </div>
         </div>
     );

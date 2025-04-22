@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import LatestProduct from "./LatestProduct";
+import { Link } from "react-router-dom";
 
 
 const LatestProducts = () => {
@@ -14,7 +15,7 @@ const LatestProducts = () => {
         <div className="container mx-auto mb-12">
             <div className='flex items-center justify-between mb-6'>
                 <h1 className='text-2xl font-medium'>Latest Product</h1>
-                <p>See all</p>
+                <Link to='/products'><p>See all</p></Link>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {

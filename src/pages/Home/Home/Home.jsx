@@ -6,6 +6,7 @@ import LatestProducts from '../LatestProducts/LatestProducts';
 import AdBanner from '../AdBanner/AdBanner';
 import AllProducts from '../AllProducts/AllProducts';
 import BottomBanner from '../BottomBanner/BottomBanner';
+import Blogs from '../Blogs/Blogs';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <AdBanner></AdBanner>
             <AllProducts></AllProducts>
             <BottomBanner></BottomBanner>
+            <Blogs></Blogs>
         </div>
     );
 };

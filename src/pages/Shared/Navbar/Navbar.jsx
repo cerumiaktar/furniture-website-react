@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { FiSearch, FiShoppingCart,FiUser } from "react-icons/fi";
 
 
@@ -36,7 +36,7 @@ const Navbar = () => {
                 <div className="navbar-end space-x-3 md:space-x-4">
                     <a className="flex items-center gap-2"><FiSearch />Search</a>
                     <a className="flex items-center gap-2"><FiShoppingCart />Cart</a>
-                    <a className="flex items-center gap-2"><FiUser />Account</a>
+                    <Link to='/login'><a className="flex items-center gap-2"><FiUser />Account</a></Link>
                 </div>
             </div>
         </div>

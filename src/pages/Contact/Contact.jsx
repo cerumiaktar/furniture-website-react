@@ -1,9 +1,10 @@
+import { FaSquareFacebook,FaSquareInstagram,FaLinkedin,FaSquareYoutube } from "react-icons/fa6";
 
 
 const Contact = () => {
     return (
-        <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between mt-12 gap-6">
+        <div className="">
+            <div className="container mx-auto flex flex-col md:flex-row justify-between mt-12 gap-6">
                 <div className="bg-gray-50 md:w-6/12 rounded-xl shadow-2xl space-y-4 border border-[#00000040] px-5 py-8">
                     <fieldset className="fieldset">
                         <legend className="fieldset-legend text-xl">Name</legend>
@@ -38,11 +39,22 @@ const Contact = () => {
                                 <p className="mb-5 text-lg">Address: Mohammadpur,Dhaka</p>
                                 <p className="mb-5 text-lg">Phone Number: +8801323456789 </p>
                                 <p className="mb-5 text-lg">Email: info@gmail.com </p>
+                                <div className="flex items-center gap-4 justify-center">
+                                    <p className="text-2xl"><FaSquareFacebook /></p>
+                                    <p className="text-2xl"><FaSquareInstagram /></p>
+                                    <p className="text-2xl"><FaLinkedin /></p>
+                                    <p className="text-2xl"><FaSquareYoutube /></p>
+                                </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
+            </div>
+            <div className="mt-18">
+                <div className="container mx-auto mb-4">
+                    <p>Address: Dhaka, Bangladesh <span className="font-medium text-red-700">Get Direction</span> </p>
+                </div>
+                <img src="https://i.ibb.co.com/wZZb1J3V/Frame-69.png" alt="" />
             </div>
         </div>
     );

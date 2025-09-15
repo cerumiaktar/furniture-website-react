@@ -11,7 +11,7 @@ const PopularProduct = ({ popularProduct }) => {
                         alt="Shoes" />
                 </figure>
                 <div className="card-body text-center">
-                    <h2 className="card-title mx-auto">{title}</h2>
+                    <h2 className="card-title mx-auto dark:text-black">{title}</h2>
                     <p className='text-lg font-medium text-[#092B42]'>${price}</p>
                     <div className="card-actions ">
                         <button className="btn bg-[#527A9A] w-full text-lg text-white dark:border-none">Buy Now</button>

@@ -14,8 +14,8 @@ const LatestProducts = () => {
     return (
         <div className="container mx-auto mb-12">
             <div className='flex items-center justify-between mb-6'>
-                <h1 className='text-2xl font-medium'>Latest Product</h1>
-                <Link to='/products'><p>See all</p></Link>
+                <h1 className='text-2xl font-medium dark:text-black'>Latest Product</h1>
+                <Link to='/products'><p className="text-[#333333]">See all</p></Link>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {

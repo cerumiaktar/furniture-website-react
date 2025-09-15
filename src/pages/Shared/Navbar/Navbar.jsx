@@ -13,7 +13,7 @@ const Navbar = () => {
         <li><NavLink to='/contact'>Contact</NavLink></li>
     </>
     return (
-        <div className='bg-base-100 shadow-sm'>
+        <div className='bg-base-100 dark:bg-white shadow-sm'>
             <div className="navbar container mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -22,18 +22,18 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 text-lg rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            className="menu menu-sm dropdown-content dark:text-black bg-base-100 text-lg rounded-box z-1 mt-3 w-52 p-2 shadow">
                             {links}
                         </ul>
                     </div>
                     <a className="text-xl"><img src="https://i.ibb.co.com/gbz5MYM1/furniture-logo.png" alt="" /></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal text-lg px-1">
+                    <ul className="menu menu-horizontal dark:text-black text-lg px-1">
                         {links}
                     </ul>
                 </div>
-                <div className="navbar-end space-x-3 md:space-x-4">
+                <div className="navbar-end space-x-3 md:space-x-4 dark:text-black">
                     <a className="flex items-center gap-2"><FiSearch />Search</a>
                     <a className="flex items-center gap-2"><FiShoppingCart />Cart</a>
                     <Link to='/login'><a className="flex items-center gap-2"><FiUser />Account</a></Link>

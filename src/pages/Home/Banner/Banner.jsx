@@ -15,7 +15,7 @@ const Banner = () => {
                     <div className="max-w-4xl">
                         <h1 className="mb-5 text-5xl font-bold">Elevate Your Home Decor with Our 
                         Premium Furniture Collection</h1>
-                        <button className="btn text-lg">Contact Us</button>
+                        <button className="btn text-lg dark:bg-white dark:text-black">Contact Us</button>
                     </div>
                 </div>
             </div>

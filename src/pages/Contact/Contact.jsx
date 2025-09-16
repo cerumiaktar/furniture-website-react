@@ -11,18 +11,18 @@ const Contact = () => {
                         <input type="text" className="input w-full dark:bg-white dark:text-[#333333] dark:border-[#d3d3d3]" placeholder="Enter your Name" />
                     </fieldset>
                     <fieldset className="fieldset">
-                        <legend className="fieldset-legend text-xl">Phone Number</legend>
-                        <input type="text" className="input w-full" placeholder="Enter your Phone Number" />
+                        <legend className="fieldset-legend text-xl dark:text-black">Phone Number</legend>
+                        <input type="text" className="input w-full dark:bg-white dark:text-[#333333] dark:border-[#d3d3d3]" placeholder="Enter your Phone Number" />
                     </fieldset>
                     <fieldset className="fieldset">
-                        <legend className="fieldset-legend text-xl">Email</legend>
-                        <input type="email" className="input w-full" placeholder="Enter your Email" />
+                        <legend className="fieldset-legend text-xl dark:text-black">Email</legend>
+                        <input type="email" className="input w-full dark:bg-white dark:text-[#333333] dark:border-[#d3d3d3]" placeholder="Enter your Email" />
                     </fieldset>
                     <fieldset className="fieldset">
-                        <legend className="fieldset-legend text-xl">Message</legend>
-                        <textarea className="textarea w-full" placeholder="Enter your text"></textarea>
+                        <legend className="fieldset-legend text-xl dark:text-black">Message</legend>
+                        <textarea className="textarea w-full dark:bg-white dark:text-[#333333] dark:border-[#d3d3d3]" placeholder="Enter your text"></textarea>
                     </fieldset>
-                    <button className="btn w-full bg-[#527A9A] text-lg text-white">Submit</button>
+                    <button className="btn w-full bg-[#527A9A] text-lg text-white dark:border-none">Submit</button>
                 </div>
                 <div className="md:w-6/12">
                     <div
@@ -52,7 +52,7 @@ const Contact = () => {
             </div>
             <div className="mt-18">
                 <div className="container mx-auto mb-4">
-                    <p>Address: Dhaka, Bangladesh <span className="font-medium text-red-700">Get Direction</span> </p>
+                    <p className="text-[#333333]">Address: Dhaka, Bangladesh <span className="font-medium text-red-700">Get Direction</span> </p>
                 </div>
                 <img src="https://i.ibb.co.com/wZZb1J3V/Frame-69.png" alt="" />
             </div>

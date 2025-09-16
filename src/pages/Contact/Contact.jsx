@@ -7,8 +7,8 @@ const Contact = () => {
             <div className="container mx-auto flex flex-col md:flex-row justify-between mt-12 gap-6">
                 <div className="bg-gray-50 md:w-6/12 rounded-xl shadow-2xl space-y-4 border border-[#00000040] px-5 py-8">
                     <fieldset className="fieldset">
-                        <legend className="fieldset-legend text-xl">Name</legend>
-                        <input type="text" className="input w-full" placeholder="Enter your Name" />
+                        <legend className="fieldset-legend text-xl dark:text-black">Name</legend>
+                        <input type="text" className="input w-full dark:bg-white dark:text-[#333333] dark:border-[#d3d3d3]" placeholder="Enter your Name" />
                     </fieldset>
                     <fieldset className="fieldset">
                         <legend className="fieldset-legend text-xl">Phone Number</legend>

@@ -3,7 +3,7 @@
 const AllProduct = ({ allProduct }) => {
     const { img, title, price } = allProduct;
     return (
-        <div className="card bg-base-100 dark:bg-white shadow-2xl py-4">
+        <div className="card bg-base-100 dark:bg-white shadow-xl py-4">
             <figure>
                 <img
                     src={img}

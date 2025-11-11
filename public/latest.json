@@ -22,5 +22,11 @@
         "img": "https://i.ibb.co.com/DJ2bL5t/4-1.png",
         "title": "Furniture Sofa  Set",
         "price": 1250.00
+    },
+    {
+        "id": 1,
+        "img": "https://i.ibb.co.com/v483wjPT/1.png",
+        "title": "Velvet Midnight Natural Sofa",
+        "price": 1250.00
     }
 ]

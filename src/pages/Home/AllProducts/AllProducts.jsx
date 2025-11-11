@@ -19,7 +19,7 @@ const AllProducts = () => {
                 <h1 className='text-2xl font-medium dark:text-black'>All Products</h1>
                 <Link to='/products'><p className="dark:text-[#333333]">See all</p></Link>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
                 {
                     allProducts.slice(0, dataLength).map(allProduct =><AllProduct allProduct={allProduct}></AllProduct>)
                 }

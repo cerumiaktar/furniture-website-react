@@ -16,7 +16,7 @@ const Categories = () => {
                 <h1 className='text-2xl font-medium dark:text-black'>Category</h1>
                 <p className="dark:text-[#333333]">See all</p>
             </div>
-            <Marquee className="">
+            <Marquee pauseOnHover={true}>
                 {
                     categories.map((category) =><Category category={category}></Category>)
                 }

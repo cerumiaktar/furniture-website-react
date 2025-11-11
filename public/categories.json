@@ -2,37 +2,37 @@
     {
         "id": 1,
         "img": "https://i.ibb.co.com/DH9TtZY0/Chair.png",
-        "title": "Electronics",
-        "quantity": 120
+        "title": "Chair",
+        "quantity": "200 Item Available"
     },
     {
         "id": 2,
         "img": "https://i.ibb.co.com/jP4QPGYH/Sofa.png",
-        "title": "Fashion",
-        "quantity": 85
+        "title": "Sofa",
+        "quantity": "240 Item Available"
     },
     {
         "id": 3,
         "img": "https://i.ibb.co.com/21T7RP6x/Table.png",
-        "title": "Home Appliances",
-        "quantity": 60
+        "title": "Table",
+        "quantity": "140 Item Available"
     },
     {
         "id": 4,
         "img": "https://i.ibb.co.com/KpL2kJ7r/Bed.png",
-        "title": "Books",
-        "quantity": 150
+        "title": "Bed",
+        "quantity": "340 Item Available"
     },
     {
         "id": 5,
         "img": "https://i.ibb.co.com/fdJ6PDF4/Lamp.png",
-        "title": "Toys & Games",
-        "quantity": 95
+        "title": "Lamp",
+        "quantity": "440 Item Available"
     },
     {
         "id": 6,
         "img": "https://i.ibb.co.com/21T7RP6x/Table.png",
-        "title": "Sports",
-        "quantity": 70
+        "title": "Bookself",
+        "quantity": "100 Item Available"
     }
 ]

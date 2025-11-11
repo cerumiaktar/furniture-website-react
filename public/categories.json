@@ -34,5 +34,11 @@
         "img": "https://i.ibb.co.com/21T7RP6x/Table.png",
         "title": "Bookself",
         "quantity": "100 Item Available"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co.com/fdJ6PDF4/Lamp.png",
+        "title": "Lamp",
+        "quantity": "440 Item Available"
     }
 ]

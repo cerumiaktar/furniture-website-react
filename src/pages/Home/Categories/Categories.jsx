@@ -1,16 +1,27 @@
-import { PiDresser,PiChairLight } from "react-icons/pi";
-import { MdOutlineChair,MdOutlineTableBar } from "react-icons/md";
-import { MdBed } from "react-icons/md";
-import { LuLamp } from "react-icons/lu";
+import Marquee from "react-fast-marquee";
+import { useEffect, useState } from "react";
+import Category from "./Category";
 
 const Categories = () => {
+    const [categories, setCategories] = useState([])
+
+    useEffect(() =>{
+        fetch('categories.json')
+        .then(res=>res.json())
+        .then(data => setCategories(data))
+    } ,[])
     return (
         <div className='container mx-auto mb-12'>
-            <div className='flex items-center justify-between'>
+            <div className='flex items-center justify-between mb-6'>
                 <h1 className='text-2xl font-medium dark:text-black'>Category</h1>
                 <p className="dark:text-[#333333]">See all</p>
             </div>
-            <div className="mt-6 grid grid-cols-2 md:grid-cols-6 gap-6">
+            <Marquee className="">
+                {
+                    categories.map((category) =><Category category={category}></Category>)
+                }
+            </Marquee>
+            {/* <div className="mt-6 grid grid-cols-2 md:grid-cols-6 gap-6">
                 <div className="card card-border border-[#092B4240] bg-[#527A9A] text-white">
                     <div className="card-body text-center">
                         <span className="text-5xl mx-auto"><PiChairLight /></span>
@@ -53,7 +64,7 @@ const Categories = () => {
                         <p className="text-[#527A9A]">260 Item Available</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

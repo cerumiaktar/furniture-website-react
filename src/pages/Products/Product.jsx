@@ -3,8 +3,8 @@
 const Product = ({ product }) => {
     const { img, title, price } = product;
     return (
-        <div>
-            <div className="card bg-base-100 dark:bg-white shadow-xl py-4">
+        <div className="">
+            <div className="card bg-base-100 dark:bg-white shadow-xl py-4 h-[400px]">
                 <figure>
                     <img
                         src={img}
